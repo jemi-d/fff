@@ -17,7 +17,7 @@ Stream - Single subscription stream
 Animation class 
 UI - Bottom sheet, image picker
 
-Module demoAPI (repo_list_module): (For get repo list i use my own github name - jemi-d)
+Module demoAPI (repo_list_module): (For get repo list i use my own github name)
 If network is there call repository list from API and handle the offline caching, display local list and perform add, edit, delete operations.
 
 Module demoAPI (users_list_module): (credential username: emilys, password: emilyspass)
