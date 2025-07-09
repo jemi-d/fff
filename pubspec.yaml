@@ -46,6 +46,10 @@ dependencies:
   firebase_messaging: ^15.2.3
   cloud_firestore: ^5.6.5
   flutter_secure_storage: ^9.2.4
+  just_audio: ^0.9.36
+  permission_handler: ^11.0.1
+  carousel_slider: ^5.0.0
+
 
 dev_dependencies:
   flutter_test:
@@ -66,6 +70,8 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/audio/hb_song.mp3
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

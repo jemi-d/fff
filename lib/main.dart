@@ -16,6 +16,7 @@ import 'basic_concepts/animation_classes.dart';
 import 'basic_concepts/image_picker.dart';
 import 'demoAPI/users_list_module/UserList.dart';
 import 'firebase_options.dart';
+import 'media_module/audio_player_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -61,6 +62,8 @@ class MyApp extends StatelessWidget {
         '/loginPost' : (context) => Login(),
         '/bottomsSheet' : (context) => BottomSheetClass(),
         '/userProfile' : (context) => Userprofile(),
+        '/audio' : (context) => AudioPlayerScreen(),
+        '/video' : (context) => Userprofile(),
       },
     ),);
   }
@@ -95,7 +98,8 @@ class _SplashScreenState extends State<SplashScreen> {
   }
   @override
   Widget build(BuildContext context) {
-    return Container(color: Colors.yellow,padding: EdgeInsets.all(20),
+    return Container(
+        color: Colors.yellow,padding: EdgeInsets.all(20),
         child: Column(mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment: CrossAxisAlignment.center,
         children: [SizedBox(width: 100,height: 100,
             child: FittedBox(fit: BoxFit.fill,child: Icon(Icons.local_activity_rounded,color: Colors.black)))],));

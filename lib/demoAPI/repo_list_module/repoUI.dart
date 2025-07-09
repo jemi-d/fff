@@ -55,6 +55,12 @@ class _RepoListClassState extends State<RepoListClass> {
           IconButton(onPressed: (){
             Navigator.pushNamed(context, '/bottomsSheet');
           }, icon: Icon(Icons.punch_clock,color: Colors.black,)),
+          IconButton(onPressed: (){
+            Navigator.pushNamed(context, '/audio');
+          }, icon: Icon(Icons.audiotrack_sharp,color: Colors.black,)),
+          IconButton(onPressed: (){
+            Navigator.pushNamed(context, '/video');
+          }, icon: Icon(Icons.video_camera_back_outlined,color: Colors.black,)),
 
         ],backgroundColor: Colors.yellow,),
       body: Text("Hello"),
